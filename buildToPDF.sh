@@ -14,7 +14,7 @@ zip -r ./Quellen.zip ./quellen/*
 find . -type f -name 'Thesis*' ! -name '*.pdf' ! -name '*.tex' -exec rm -f {} +
 
 # ==all.aux Files
-sudo rm ./chapter/*.aux
+rm ./chapter/*.aux
 
 # Auto Git-Commit
 git add .
