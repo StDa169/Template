@@ -22,7 +22,7 @@ rm Einleitung.aux
 rm Grundlagen.aux
 rm Quellenverzeichnis.aux
 rm Sperrvermerk.aux
-rm Zusammenfassung.aux
+rm *.aux
 cd ..
 
 # Auto Git-Commit
