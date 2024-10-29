@@ -14,7 +14,14 @@ zip -r ./Quellen.zip ./quellen/*
 find . -type f -name 'Thesis*' ! -name '*.pdf' ! -name '*.tex' -exec rm -f {} +
 
 # ==all.aux Files
-rm ./chapter/*.aux
+rm ./chapter/Anhang.aux
+rm ./chapter/Durchfuehrung.aux
+rm ./chapter/Ehrenwoertliche_Erklaerung.aux
+rm ./chapter/Einleitung.aux
+rm ./chapter/Grundlagen.aux
+rm ./chapter/Quellenverzeichnis.aux
+rm ./chapter/Sperrvermerk.aux
+rm ./chapter/Zusammenfassung.aux
 
 # Auto Git-Commit
 git add .
