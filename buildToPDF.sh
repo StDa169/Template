@@ -11,7 +11,7 @@ zip -r ./Quellen.zip ./quellen/*
 
 # Remove unassasary files
 # ==all Thesis files, but not .tex
-find . -type f -name 'Thesis*' ! -name '*.pdf' ! -name '*.tex' -exec rm -f {} +
+# find . -type f -name 'Thesis*' ! -name '*.pdf' ! -name '*.tex' -exec rm -f {} +
 
 # ==all.aux Files
 cd chapter
