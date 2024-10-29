@@ -7,7 +7,7 @@ makeglossaries ./Thesis
 pdflatex ./Thesis -draftmode
 pdflatex ./Thesis
 
-zip -r ./Quellen.zip ./quellen/*
+#zip -r ./Quellen.zip ./quellen/*
 
 # Remove unassasary files
 # ==all Thesis files, but not .tex
