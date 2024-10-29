@@ -11,7 +11,7 @@ pdflatex ./Thesis
 # ==all Thesis files, but not .tex
 # find . -type f -name 'Thesis*' ! -name '*.pdf' ! -name '*.tex' -exec rm -f {} +
 # ==all.aux Files
-cd chapter
+cd 'chapter'
 rm Anhang.aux
 rm Durchfuehrung.aux
 rm Ehrenwoertliche_Erklaerung.aux
